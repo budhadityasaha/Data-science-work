@@ -4,3 +4,4 @@ This project was all about building a deep learning model which can recognise fi
 #### Responsibilities
 •	Build a custom data generator that can yield batch data and corresponding labels after pre-processing the images (centre crop, resize, normalization).<br>
 •	Create a 3d convolutional network and train the model and make sure model able to produce good accuracy.
+•	Create a 2d convolutional network with LSTM/ GRU and make sure model able to produce good accuracy.
