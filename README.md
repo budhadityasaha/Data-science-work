@@ -6,6 +6,14 @@ This project was all about building a deep learning model which can recognise fi
 •	Create a 3d convolutional network and train the model and make sure model able to produce good accuracy.<br>
 •	Create a 2d convolutional network with LSTM/ GRU and make sure model able to produce good accuracy.<br>
 
+## Project: Predicting Dow Jones using News Headlines using 1D CNN-RNN
+#### Description: 
+Assuming that news headlines that run on a particular day affect the opening stock price of an index the very next morning; build a model that can predict how much stock unit price will rise or fall based on a present day news headlines
+#### Responsibilities
+•	Given data contains news headlines for last few years on daily basis and another dataset has the stock price for that day <br>
+•	Preprocess/datacleaning to make the data easer for embedding and modelling - 1) remove stopwords 2) Remove unwanted characters 3) decontract words <br>
+•	Build a 1d CNN-RNN model that can model the relationship between the news and the stock market price of an index
+
 ## Project: Predict Telecom Churn
 #### Description: 
 In this project, based on customer-level data of a leading telecom firm, predictive models were built to identify customers at high risk of churn and identify the main indicators of churn. <br>
