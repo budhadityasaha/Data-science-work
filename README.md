@@ -14,6 +14,14 @@ Assuming that news headlines that run on a particular day affect the opening sto
 •	Preprocess/datacleaning to make the data easer for embedding and modelling - 1) remove stopwords 2) Remove unwanted characters 3) decontract words <br>
 •	Build a 1d CNN-RNN model that can model the relationship between the news and the stock market price of an index
 
+## Project: Generate text based on a character-level RNN model
+#### Description: 
+Using a given file having Shakespeare's text, build a character level RNN model that can generate text similar to given text
+#### Responsibilities
+•	The file contains Shakespeare'text which is having (having more than 5 million chars). Encode the text for modelling.
+•	Create batch to feed the data for a fixed length after converting the text vector into a stream of character indices.
+•	Build RNN model that can generate text based on previos character
+
 ## Project: Predict Telecom Churn
 #### Description: 
 In this project, based on customer-level data of a leading telecom firm, predictive models were built to identify customers at high risk of churn and identify the main indicators of churn. <br>
