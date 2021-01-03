@@ -1,3 +1,14 @@
+## Project: Eye for Blind
+#### Description: 
+To create a deep learning model which can explain the content of an image in the form of speech through Caption generation with attention mechanism on Flickr8K dataset. This kind of model is a use-case for blind people so that they can understand any image with the help of speech. The caption generated through a CNN-RNN model will be converted to speech using a text to speech library.
+
+#### Responsibilities
+Data Understanding: Load the data and understand the representation
+Data preprocessing: process both images & captions to the desired format.
+Train/Test Split: Combine both images & captions to create the train & test dataset.
+Model-Building: This is the stage where you will create your image captioning model by building Encoder , Attention & Decoder model
+Model Evaluation: Evaluate the models using greedy search
+
 ## Project: Gesture recognition
 #### Description: 
 This project was all about developing a deep learning model for smart-TV that can recognise five different gestures performed by the user which will help users control the TV without using a remote. The training data consists of a few hundred videos categorised into one of the five classes. Each video (typically 2-3 seconds long) is divided into a sequence of 30 frames(images) for various gestures and their labels. 
@@ -11,13 +22,14 @@ For analysing videos using neural networks, two types of architectures are used 
 •	Create a 3d convolutional network and train the model and make sure model able to produce good accuracy.<br>
 •	Create a 2d convolutional network with LSTM/ GRU and make sure model able to produce good accuracy.<br>
 
-## Project: Predicting Dow Jones using News Headlines using 1D CNN-RNN
+## Project: Create a seq2seq model that can translate Bengali sentence to English
 #### Description: 
-Assuming that news headlines that run on a particular day affect the opening stock price of an index the very next morning; build a model that can predict how much stock unit price will rise or fall based on a present day news headlines
+The seq2seq models is normally composed of an encoder-decoder architecture, where the encoder processes the input sequence and encodes/compresses/summarizes the information into a context vector (also called as the “thought vector”) of a fixed length. The decoder is then initialized with this context vector, using which it starts generating the transformed output. The seq2seq models is normally composed of an encoder-decoder architecture, where the encoder processes the input sequence and encodes/compresses/summarizes the information into a context vector (also called as the “thought vector”) of a fixed length. The decoder is then initialized with this context vector, using which it starts generating the transformed output.
+
 #### Responsibilities
-•	Given data contains news headlines for last few years on daily basis and another dataset has the stock price for that day <br>
-•	Preprocess/datacleaning to make the data easer for embedding and modelling - 1) remove stopwords 2) Remove unwanted characters 3) decontract words <br>
-•	Build a 1d CNN-RNN model that can model the relationship between the news and the stock market price of an index
+•	Datacleaning and preprocessing the Bengali and English text <br>
+•	Model-Building: This is the stage where you will create your image captioning model by building Encoder , Attention & Decoder model
+•	Model Evaluation: Evaluate the models using greedy search
 
 ## Project: Generate text based on a character-level RNN model
 #### Description: 
