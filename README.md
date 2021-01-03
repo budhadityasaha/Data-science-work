@@ -1,6 +1,11 @@
 ## Project: Gesture recognition
 #### Description: 
-This project was all about building a deep learning model which can recognise five different gestures performed by the user which will can help users control the TV without using a remote. The dataset had around 650 videos (each having 30 frames) for various gestures and their labels.
+This project was all about developing a deep learning model for smart-TV that can recognise five different gestures performed by the user which will help users control the TV without using a remote. The training data consists of a few hundred videos categorised into one of the five classes. Each video (typically 2-3 seconds long) is divided into a sequence of 30 frames(images) for various gestures and their labels. 
+
+For analysing videos using neural networks, two types of architectures are used –
+ 1) 3D CNN &  
+ 2) 2D CNN with RNN.
+ 
 #### Responsibilities
 •	Build a custom data generator that can yield batch data and corresponding labels after pre-processing the images (centre crop, resize, normalization).<br>
 •	Create a 3d convolutional network and train the model and make sure model able to produce good accuracy.<br>
