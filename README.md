@@ -3,11 +3,11 @@
 To create a deep learning model which can explain the content of an image in the form of speech through Caption generation with attention mechanism on Flickr8K dataset. This kind of model is a use-case for blind people so that they can understand any image with the help of speech. The caption generated through a CNN-RNN model will be converted to speech using a text to speech library.
 
 #### Responsibilities
-•	Data Understanding: Load the data and understand the representation
-•	Data preprocessing: process both images & captions to the desired format.
-•	Train/Test Split: Combine both images & captions to create the train & test dataset.
-•	Model-Building: This is the stage where you will create your image captioning model by building Encoder , Attention & Decoder model
-•	Model Evaluation: Evaluate the models using greedy search
+•	Data Understanding: Load the data and understand the representation <br>
+•	Data preprocessing: process both images & captions to the desired format. <br>
+•	Train/Test Split: Combine both images & captions to create the train & test dataset. <br>
+•	Model-Building: This is the stage where you will create your image captioning model by building Encoder , Attention & Decoder model <br>
+•	Model Evaluation: Evaluate the models using greedy search <br>
 
 ## Project: Gesture recognition
 #### Description: 
